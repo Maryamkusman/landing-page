@@ -2,13 +2,13 @@ import { initializeApp } from 'firebase/app'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDhKgctCpABB9OKbLaSWLvz460FpaXkfG8",
-  authDomain: "wdz-landingpage.firebaseapp.com",
-  projectId: "wdz-landingpage",
-  storageBucket: "wdz-landingpage.firebasestorage.app",
-  messagingSenderId: "477988348745",
-  appId: "1:477988348745:web:b15f8cc5ecf4d51e6f7098",
-  measurementId: "G-BJR1BLBHC6",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 }
 
 const app = initializeApp(firebaseConfig)
