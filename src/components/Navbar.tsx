@@ -71,7 +71,7 @@ export default function Navbar({ onOpenModal, variant = 'landing' }: NavbarProps
                 onOpenModal()
               }}
             >
-              Join Waitlist <span className="btn-arrow">&rarr;</span>
+              Contact Us <span className="btn-arrow">&rarr;</span>
             </a>
           )}
         </li>
