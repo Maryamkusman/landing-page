@@ -21,6 +21,10 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
       return () => clearTimeout(timer)
     } else {
       document.body.style.overflow = ''
+      // Clear hash so browser doesn't jump to a section anchor
+      if (window.location.hash) {
+        history.replaceState(null, '', window.location.pathname)
+      }
     }
   }, [isOpen])
 
