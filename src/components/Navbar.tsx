@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { useCallback, useEffect, useState } from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 interface NavbarProps {
   onOpenModal: () => void
@@ -10,11 +10,30 @@ export default function Navbar({ onOpenModal, variant = 'landing' }: NavbarProps
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
+  const navigate = useNavigate()
 
   const isOpenClaw = variant === 'openclaw' || location.pathname === '/openclaw'
 
-  // Prefix hash links with / when not on the landing page
-  const sectionLink = (hash: string) => (isOpenClaw ? `/${hash}` : hash)
+  const handleSectionClick = useCallback(
+    (e: React.MouseEvent, sectionId: string) => {
+      e.preventDefault()
+      setMenuOpen(false)
+
+      if (isOpenClaw) {
+        // Navigate to landing page, then scroll after render
+        navigate('/')
+        // Wait for the landing page to mount before scrolling
+        setTimeout(() => {
+          const el = document.getElementById(sectionId)
+          el?.scrollIntoView({ behavior: 'smooth' })
+        }, 100)
+      } else {
+        const el = document.getElementById(sectionId)
+        el?.scrollIntoView({ behavior: 'smooth' })
+      }
+    },
+    [isOpenClaw, navigate]
+  )
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40)
@@ -39,13 +58,13 @@ export default function Navbar({ onOpenModal, variant = 'landing' }: NavbarProps
       </button>
       <ul className={`nav-links${menuOpen ? ' open' : ''}`}>
         <li>
-          <a href={sectionLink('#features')} onClick={() => setMenuOpen(false)}>Solutions</a>
+          <a href="#features" onClick={(e) => handleSectionClick(e, 'features')}>Solutions</a>
         </li>
         <li>
-          <a href={sectionLink('#process')} onClick={() => setMenuOpen(false)}>Process</a>
+          <a href="#process" onClick={(e) => handleSectionClick(e, 'process')}>Process</a>
         </li>
         <li>
-          <a href={sectionLink('#about')} onClick={() => setMenuOpen(false)}>Team</a>
+          <a href="#about" onClick={(e) => handleSectionClick(e, 'about')}>Team</a>
         </li>
         <li>
           <Link to="/openclaw" className={isOpenClaw ? 'nav-active' : ''} onClick={() => setMenuOpen(false)}>
