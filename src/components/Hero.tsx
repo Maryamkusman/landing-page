@@ -25,7 +25,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
           </p>
           <div className="hero-actions reveal reveal-delay-3">
             <button className="btn btn-primary btn-large" onClick={onOpenModal}>
-              Join the Waitlist <span className="btn-arrow">&rarr;</span>
+              Contact Us <span className="btn-arrow">&rarr;</span>
             </button>
             <a href="#features" className="btn btn-ghost">
               See how it works

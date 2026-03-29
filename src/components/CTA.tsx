@@ -24,7 +24,7 @@ export default function CTA({ onOpenModal }: CTAProps) {
           className="btn btn-primary btn-large reveal reveal-delay-3"
           onClick={onOpenModal}
         >
-          Join the Waitlist <span className="btn-arrow">&rarr;</span>
+          Contact Us <span className="btn-arrow">&rarr;</span>
         </button>
       </div>
     </section>

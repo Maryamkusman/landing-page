@@ -21,6 +21,10 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
       return () => clearTimeout(timer)
     } else {
       document.body.style.overflow = ''
+      // Clear hash so browser doesn't jump to a section anchor
+      if (window.location.hash) {
+        history.replaceState(null, '', window.location.pathname)
+      }
     }
   }, [isOpen])
 
@@ -79,7 +83,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
         {!submitted ? (
           <div className="waitlist-form">
             <div className="modal-badge">Early Access</div>
-            <h2>Join the Waitlist</h2>
+            <h2>Contact Us</h2>
             <p className="modal-subtitle">
               Be among the first to deploy AI agents built for your business.
               We'll reach out when your spot opens up.

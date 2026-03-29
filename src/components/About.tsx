@@ -9,29 +9,38 @@ const LinkedInIcon = () => (
 const founders = [
   {
     initials: 'DB',
+    photo: '/headshots/danial.JPG',
+    photoStyle: { objectPosition: 'center 25%', transform: 'scale(1.3)' } as React.CSSProperties,
     name: 'Danial Beg',
     title: 'Co-Founder',
-    bio: 'ML engineer with experience at Latham & Watkins and a background in machine learning from UC Irvine. Certified in RAG architectures and AI agent systems, Danial brings hands-on expertise in building production-grade intelligent systems.',
+    bio: 'ML engineer with experience at Latham & Watkins and a background in machine learning from UC Irvine. Certified in RAG architectures and AI agent systems, he brings hands-on expertise in building production-grade intelligent systems.',
     tags: ['ML Engineering', 'RAG Systems', 'AI Agents'],
     linkedin: 'https://www.linkedin.com/in/danialbeg/',
+    website: 'https://danialbeg.com/',
     delay: '',
   },
   {
     initials: 'ZQ',
+    photo: '/headshots/zubair.png',
+    photoStyle: { objectPosition: 'center 0%' } as React.CSSProperties,
     name: 'Zubair Qazi',
     title: 'Co-Founder',
-    bio: 'AI researcher and PhD student at the University of Michigan AI Lab, with an MS in Computer Science from UC Riverside. Previously a software engineer at Scripps Research, Zubair specializes in LLMs, agentic workflows, and data-driven systems.',
-    tags: ['PhD — AI Research', 'LLMs', 'Agentic Workflows'],
+    bio: 'AI researcher and PhD student at the University of Michigan AI Lab, focused on graph-based machine learning, large language models, and AI agents. Previously an ML engineer at Scripps Research, he brings deep research expertise to production AI systems.',
+    tags: ['PhD — AI Research', 'LLMs', 'AI Agents'],
     linkedin: 'https://www.linkedin.com/in/zubair-qazi/',
+    website: 'https://zubairqazi.com/',
     delay: 'reveal-delay-1',
   },
   {
     initials: 'WZ',
+    photo: '/headshots/wasay.jpg',
+    photoStyle: {} as React.CSSProperties,
     name: 'Wasay Zaman',
     title: 'Co-Founder',
-    bio: 'Software engineer with a Computer Science degree from San Diego State University. Wasay brings strong full-stack engineering skills and a builder\'s mindset to the team, turning complex AI architectures into reliable, production-ready products.',
-    tags: ['Software Engineering', 'Full-Stack', 'Product'],
+    bio: 'Former IT software developer at Qualcomm, where he architected and deployed internal AI solutions for complex corporate workflows. Also a VC Fellow with Sunset Ventures and Emerging LA, he combines technical execution with venture-scale strategy.',
+    tags: ['AI Solutions', 'Enterprise', 'VC Strategy'],
     linkedin: 'https://www.linkedin.com/in/wasayzaman/',
+    website: '',
     delay: 'reveal-delay-2',
   },
 ]
@@ -61,9 +70,12 @@ export default function About() {
         <div className="founders-grid">
           {founders.map((f) => (
             <div key={f.name} className={`founder-card reveal ${f.delay}`}>
-              {/* Replace with <img src="photo.jpg" alt={f.name} /> */}
               <div className="founder-photo">
-                <span className="initials">{f.initials}</span>
+                {f.photo ? (
+                  <img src={f.photo} alt={f.name} style={f.photoStyle} />
+                ) : (
+                  <span className="initials">{f.initials}</span>
+                )}
               </div>
               <div className="founder-name">{f.name}</div>
               <div className="founder-title">{f.title}</div>
@@ -75,15 +87,31 @@ export default function About() {
                   </span>
                 ))}
               </div>
-              <a
-                href={f.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="founder-linkedin"
-              >
-                <LinkedInIcon />
-                LinkedIn
-              </a>
+              <div className="founder-links">
+                <a
+                  href={f.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="founder-linkedin"
+                >
+                  <LinkedInIcon />
+                  LinkedIn
+                </a>
+                {f.website && (
+                  <a
+                    href={f.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="founder-linkedin"
+                  >
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+                    </svg>
+                    Website
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>
