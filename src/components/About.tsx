@@ -9,6 +9,8 @@ const LinkedInIcon = () => (
 const founders = [
   {
     initials: 'DB',
+    photo: '/headshots/danial.JPG',
+    photoStyle: { objectPosition: 'center 25%', transform: 'scale(1.3)' } as React.CSSProperties,
     name: 'Danial Beg',
     title: 'Co-Founder',
     bio: 'ML engineer with experience at Latham & Watkins and a background in machine learning from UC Irvine. Certified in RAG architectures and AI agent systems, he brings hands-on expertise in building production-grade intelligent systems.',
@@ -18,6 +20,8 @@ const founders = [
   },
   {
     initials: 'ZQ',
+    photo: '/headshots/zubair.png',
+    photoStyle: { objectPosition: 'center 0%' } as React.CSSProperties,
     name: 'Zubair Qazi',
     title: 'Co-Founder',
     bio: 'AI researcher and PhD student at the University of Michigan AI Lab, focused on graph-based machine learning, large language models, and AI agents. Previously an ML engineer at Scripps Research, he brings deep research expertise to production AI systems.',
@@ -27,6 +31,8 @@ const founders = [
   },
   {
     initials: 'WZ',
+    photo: '/headshots/wasay.jpg',
+    photoStyle: {} as React.CSSProperties,
     name: 'Wasay Zaman',
     title: 'Co-Founder',
     bio: 'Former IT software developer at Qualcomm, where he architected and deployed internal AI solutions for complex corporate workflows. Also a VC Fellow with Sunset Ventures and Emerging LA, he combines technical execution with venture-scale strategy.',
@@ -61,9 +67,12 @@ export default function About() {
         <div className="founders-grid">
           {founders.map((f) => (
             <div key={f.name} className={`founder-card reveal ${f.delay}`}>
-              {/* Replace with <img src="photo.jpg" alt={f.name} /> */}
               <div className="founder-photo">
-                <span className="initials">{f.initials}</span>
+                {f.photo ? (
+                  <img src={f.photo} alt={f.name} style={f.photoStyle} />
+                ) : (
+                  <span className="initials">{f.initials}</span>
+                )}
               </div>
               <div className="founder-name">{f.name}</div>
               <div className="founder-title">{f.title}</div>
