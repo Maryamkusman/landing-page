@@ -31,6 +31,16 @@ const reasons = [
     ),
     delay: 'reveal-delay-2',
   },
+  {
+    icon: 'teal',
+    title: 'Ongoing support after go-live',
+    description:
+      'We stay involved — monitoring, model updates, and a direct line to our engineering team.',
+    svgPath: (
+      <path d="M11.42 15.17l-5.384 3.065A1.5 1.5 0 014.5 16.93V7.07a1.5 1.5 0 011.536-1.305l5.384 3.065a1.5 1.5 0 010 2.61zM13.5 4.06l5.384 3.065A1.5 1.5 0 0120.42 8.43v8.14a1.5 1.5 0 01-1.536 1.305L13.5 14.81a1.5 1.5 0 010-2.61z" />
+    ),
+    delay: 'reveal-delay-3',
+  },
 ]
 
 export default function WhyWDZ() {
@@ -43,7 +53,7 @@ export default function WhyWDZ() {
         Built by AI engineers. Backed by real expertise.
       </h2>
 
-      <div className="features-grid pain-points-grid">
+      <div className="features-grid why-wdz-grid">
         {reasons.map((r) => (
           <div key={r.title} className={`feature-card reveal ${r.delay}`}>
             <div className={`feature-icon icon-${r.icon}`}>

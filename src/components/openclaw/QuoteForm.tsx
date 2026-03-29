@@ -137,7 +137,11 @@ export default function QuoteForm() {
               </svg>
             </div>
             <h3>We've received your request</h3>
-            <p>One of our team will be in touch within one business day to discuss your needs.</p>
+            <div className="quote-next-steps">
+              <div className="quote-step"><span className="quote-step-num">1</span> We review your request</div>
+              <div className="quote-step"><span className="quote-step-num">2</span> We schedule a short call</div>
+              <div className="quote-step"><span className="quote-step-num">3</span> We send a custom proposal</div>
+            </div>
           </div>
         )}
       </div>
