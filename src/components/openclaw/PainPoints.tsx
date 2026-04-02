@@ -26,7 +26,7 @@ const painPoints = [
   {
     title: 'Repetitive tasks eat your day',
     description:
-      'Scheduling, data entry, report generation, follow-ups — the same tasks, over and over, taking time away from work that actually grows revenue.',
+      'Scheduling, data entry, report generation, follow-ups — the same tasks, over and over, keeping your team from the strategic work that moves the business forward.',
     icon: (
       <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -43,10 +43,10 @@ export default function PainPoints() {
     <section className="features" ref={ref}>
       <div className="section-label reveal">The problem</div>
       <h2 className="section-heading reveal reveal-delay-1">
-        Your team is buried in busywork
+        Your business is running below its potential
       </h2>
       <p className="section-subtext reveal reveal-delay-2">
-        Every hour spent on repetitive tasks is an hour not spent growing your business.
+        When every team member is stuck in the weeds, no one is focused on growth.
       </p>
 
       <div className="features-grid pain-points-grid">

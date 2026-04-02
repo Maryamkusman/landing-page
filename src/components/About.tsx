@@ -61,9 +61,9 @@ export default function About() {
           </h2>
           <p className="section-subtext reveal reveal-delay-2">
             WDZ Solutions was founded by three engineers with deep roots in
-            machine learning research, enterprise software, and applied AI — the
-            people behind the agents know what it takes to make them work at
-            scale.
+            machine learning research, enterprise software, and applied AI —
+            building end-to-end AI transformation for businesses ready to
+            operate differently.
           </p>
         </div>
 

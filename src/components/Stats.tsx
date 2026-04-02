@@ -22,7 +22,7 @@ function StatCard({ target, suffix, label, delay }: StatCardProps) {
 }
 
 const stats = [
-  { target: 87, suffix: '%', label: 'Reduction in manual processing', delay: '' },
+  { target: 87, suffix: '%', label: 'Reduction in repetitive work', delay: '' },
   { target: 3, suffix: 'x', label: 'Faster turnaround times', delay: 'reveal-delay-1' },
   { target: 40, suffix: '%', label: 'Cost savings on average', delay: 'reveal-delay-2' },
   { target: 99.9, suffix: '%', label: 'Agent uptime SLA', delay: 'reveal-delay-3' },

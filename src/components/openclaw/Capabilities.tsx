@@ -64,7 +64,7 @@ export default function Capabilities() {
     <section className="features" id="capabilities" ref={ref}>
       <div className="section-label reveal">Capabilities</div>
       <h2 className="section-heading reveal reveal-delay-1">
-        What your AI assistants can do
+        How AI transforms your daily operations
       </h2>
 
       <div className="features-grid">

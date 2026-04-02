@@ -19,7 +19,7 @@ const steps = [
     num: 3,
     title: 'We build your custom assistants',
     description:
-      'Not chatbots. Custom AI workers designed around your specific processes.',
+      'Not chatbots. AI that reshapes how your entire business operates — across every team and workflow.',
     delay: 'reveal-delay-2',
   },
 ]

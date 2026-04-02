@@ -100,7 +100,7 @@ export default function QuoteForm() {
 
               <div className="form-group">
                 <label htmlFor="q-automation">
-                  What tasks would you like to automate?{' '}
+                  What areas of your business would you like to transform?{' '}
                   <span style={{ fontWeight: 300, color: 'var(--text-secondary)' }}>(optional)</span>
                 </label>
                 <textarea
