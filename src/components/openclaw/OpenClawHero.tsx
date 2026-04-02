@@ -15,9 +15,9 @@ export default function OpenClawHero() {
             Your own AI team — running on <em>hardware you control</em>
           </h1>
           <p className="hero-description reveal reveal-delay-2">
-            We set up AI assistants that handle your busywork — emails,
-            documents, scheduling, and more — running privately on hardware
-            in your office. Your data never leaves your building.
+            We don't just automate individual tasks — we transform how your
+            entire team works, from communication and documents to scheduling
+            and decision-making. All running privately on your hardware.
           </p>
           <div className="hero-actions reveal reveal-delay-3">
             <a href="#quote" className="btn btn-primary btn-large oc-btn-primary">

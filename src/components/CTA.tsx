@@ -12,13 +12,13 @@ export default function CTA({ onOpenModal }: CTAProps) {
       <div className="cta-inner">
         <div className="section-label reveal">Get started</div>
         <h2 className="reveal reveal-delay-1">
-          Ready to put AI agents
+          Ready to transform
           <br />
-          to work for your business?
+          how your business operates?
         </h2>
         <p className="reveal reveal-delay-2">
-          Join the waitlist for early access. We're onboarding a limited number
-          of partners to ensure exceptional results for every client.
+          We're partnering with a limited number of businesses to deliver
+          full-scale AI transformation — from operations to strategy.
         </p>
         <button
           className="btn btn-primary btn-large reveal reveal-delay-3"

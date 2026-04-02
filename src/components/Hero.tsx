@@ -16,12 +16,12 @@ export default function Hero({ onOpenModal }: HeroProps) {
             Now accepting early partners
           </div>
           <h1 className="reveal reveal-delay-1">
-            AI agents that <em>actually</em> run your operations
+            AI that <em>transforms</em> your entire business
           </h1>
           <p className="hero-description reveal reveal-delay-2">
-            WDZ Solutions builds autonomous AI agents tailored to your business
-            — handling workflows, decisions, and processes so your team can focus
-            on what matters.
+            WDZ Solutions doesn't just automate tasks — we transform how your
+            entire organization operates, from strategy and workflows to
+            decision-making and growth.
           </p>
           <div className="hero-actions reveal reveal-delay-3">
             <button className="btn btn-primary btn-large" onClick={onOpenModal}>
@@ -60,8 +60,8 @@ export default function Hero({ onOpenModal }: HeroProps) {
                   <path d="M9 5v4l3 3" />
                 </svg>
               </div>
-              <div className="hero-card-label">Task Automation</div>
-              <div className="hero-card-value">14 workflows active</div>
+              <div className="hero-card-label">AI Transformation</div>
+              <div className="hero-card-value">14 processes optimized</div>
             </div>
 
             <div className="hero-card hero-card-3">

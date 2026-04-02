@@ -5,7 +5,7 @@ const steps = [
     num: 1,
     title: 'Discovery',
     description:
-      'We map your workflows, identify high-impact automation opportunities, and define success metrics.',
+      'We map your entire operation, identify where AI can reshape how your business works, and define success metrics.',
     delay: '',
   },
   {
@@ -42,7 +42,7 @@ export default function Process() {
           From discovery to deployment in weeks, not months
         </h2>
         <p className="section-subtext reveal reveal-delay-2">
-          A proven process that gets AI agents into your operations quickly and
+          A proven process that transforms your operations with AI — quickly and
           safely.
         </p>
 

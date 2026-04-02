@@ -3,9 +3,9 @@ import { useScrollReveal } from '../hooks/useScrollReveal'
 const features = [
   {
     icon: 'teal',
-    title: 'Workflow Automation',
+    title: 'End-to-End Process Transformation',
     description:
-      'Agents that handle end-to-end processes — from intake and triage to execution and reporting — without manual intervention.',
+      'Agents that reshape entire workflows — from intake and triage to execution and reporting — so your team operates at a fundamentally higher level.',
     svgPath: <path d="M4.5 12.75l6 6 9-13.5" />,
     delay: '',
   },
@@ -64,13 +64,13 @@ export default function Features() {
 
   return (
     <section className="features" id="features" ref={ref}>
-      <div className="section-label reveal">What we build</div>
+      <div className="section-label reveal">What we do</div>
       <h2 className="section-heading reveal reveal-delay-1">
-        Agents designed around <em>your</em> workflows
+        AI woven into <em>every</em> part of your business
       </h2>
       <p className="section-subtext reveal reveal-delay-2">
-        Not another chatbot. We deploy autonomous agents that integrate with
-        your existing systems and make real decisions.
+        Not point solutions — we deploy AI across your entire operation,
+        transforming how your team works, decides, and grows.
       </p>
 
       <div className="features-grid">
