@@ -49,321 +49,73 @@ const industries = [
   {
     title: 'Law Firms',
     cards: [
-<<<<<<< Updated upstream
       { icon: 'teal', iconKey: 'document', title: 'Contract review', description: 'Review contracts quickly, flag risks, and surface critical clauses without manual reading.', delay: '' },
       { icon: 'gold', iconKey: 'search', title: 'Discovery document analysis', description: 'Sort and summarize discovery documents so attorneys spend time on strategy, not paperwork.', delay: 'reveal-delay-1' },
       { icon: 'warm', iconKey: 'pencil', title: 'Drafting standard agreements', description: 'Generate first drafts of standard agreements and speed up review cycles.', delay: 'reveal-delay-2' },
       { icon: 'teal', iconKey: 'clipboard', title: 'Intake automation', description: 'Capture new client details, route cases, and populate matter records automatically.', delay: '' },
-=======
-      {
-        icon: 'teal',
-        title: 'Contract review',
-        description: 'Review contracts quickly, flag risks, and surface critical clauses without manual reading.',
-        delay: '',
-        iconPath: 'M19.5 14.25v-2.625c0-.621-.504-1.125-1.125-1.125h-1.5c-.621 0-1.125.504-1.125 1.125v2.625M21 12H9m0 0l3-3m-3 3l3 3m0 3.75V8.197c0-2.88-2.56-4.9-5.25-4.9s-5.25 2.02-5.25 4.9V18.75m9 0v-6m0 6h-1.5m1.5 0h1.5',
-      },
-      {
-        icon: 'gold',
-        title: 'Discovery document analysis',
-        description: 'Sort and summarize discovery documents so attorneys spend time on strategy, not paperwork.',
-        delay: 'reveal-delay-1',
-        iconPath: 'M19.5 14.25v-2.625c0-.621-.504-1.125-1.125-1.125h-1.5c-.621 0-1.125.504-1.125 1.125v2.625M21 12H9m0 0l3-3m-3 3l3 3m0 3.75V8.197c0-2.88-2.56-4.9-5.25-4.9s-5.25 2.02-5.25 4.9V18.75m9 0v-6m0 6h-1.5m1.5 0h1.5',
-      },
-      {
-        icon: 'warm',
-        title: 'Drafting standard agreements',
-        description: 'Generate first drafts of standard agreements and speed up review cycles.',
-        delay: 'reveal-delay-2',
-        iconPath: 'M19.5 14.25v-2.625c0-.621-.504-1.125-1.125-1.125h-1.5c-.621 0-1.125.504-1.125 1.125v2.625M21 12H9m0 0l3-3m-3 3l3 3m0 3.75V8.197c0-2.88-2.56-4.9-5.25-4.9s-5.25 2.02-5.25 4.9V18.75m9 0v-6m0 6h-1.5m1.5 0h1.5',
-      },
-      {
-        icon: 'teal',
-        title: 'Intake automation',
-        description: 'Capture new client details, route cases, and populate matter records automatically.',
-        delay: '',
-        iconPath: 'M9 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H0v-.008zm.375 0h.008v.008h-.008v-.008zm2.625 0h.008v.008h-.008v-.008zm2.625 0h.008v.008h-.008v-.008zm-5.625 2.25h.008v.008H0v-.008zm.375 0h.008v.008h-.008v-.008zm5.625 0h.008v.008h-.008v-.008zm.375 0h.008v.008h-.008v-.008z',
-      },
->>>>>>> Stashed changes
     ],
   },
   {
     title: 'Healthcare',
     cards: [
-<<<<<<< Updated upstream
       { icon: 'teal', iconKey: 'calendar', title: 'Appointment scheduling', description: 'Automate scheduling, reminders, and cancellations to reduce no-shows.', delay: '' },
       { icon: 'gold', iconKey: 'shield', title: 'Insurance verification', description: 'Check patient coverage automatically before appointments.', delay: 'reveal-delay-1' },
       { icon: 'warm', iconKey: 'document', title: 'Clinical note summarization', description: 'Turn visit notes into structured summaries for faster record keeping.', delay: 'reveal-delay-2' },
       { icon: 'teal', iconKey: 'chat', title: 'Patient follow-ups', description: 'Send follow-up messages, reminders, and care instructions without manual effort.', delay: '' },
-=======
-      {
-        icon: 'teal',
-        title: 'Appointment scheduling',
-        description: 'Automate scheduling, reminders, and cancellations to reduce no-shows.',
-        delay: '',
-        iconPath: 'M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5a2.25 2.25 0 002.25-2.25m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5a2.25 2.25 0 012.25 2.25v7.5',
-      },
-      {
-        icon: 'gold',
-        title: 'Insurance verification',
-        description: 'Check patient coverage automatically before appointments.',
-        delay: 'reveal-delay-1',
-        iconPath: 'M9 12.75L11.25 15 15 9.75m-3-6.75a6.75 6.75 0 110 13.5A6.75 6.75 0 0112 3z',
-      },
-      {
-        icon: 'warm',
-        title: 'Clinical note summarization',
-        description: 'Turn visit notes into structured summaries for faster record keeping.',
-        delay: 'reveal-delay-2',
-        iconPath: 'M19.5 14.25v-2.625c0-.621-.504-1.125-1.125-1.125h-1.5c-.621 0-1.125.504-1.125 1.125v2.625M21 12H9m0 0l3-3m-3 3l3 3m0 3.75V8.197c0-2.88-2.56-4.9-5.25-4.9s-5.25 2.02-5.25 4.9V18.75m9 0v-6m0 6h-1.5m1.5 0h1.5',
-      },
-      {
-        icon: 'teal',
-        title: 'Patient follow-ups',
-        description: 'Send follow-up messages, reminders, and care instructions without manual effort.',
-        delay: '',
-        iconPath: 'M21 8.25c0-1.085-.672-2.022-1.623-2.607l-7.5-4.5a2.25 2.25 0 00-2.254 0l-7.5 4.5A2.25 2.25 0 003 8.25v8.5c0 1.085.672 2.022 1.623 2.607l7.5 4.5a2.25 2.25 0 002.254 0l7.5-4.5c.951-.585 1.623-1.522 1.623-2.607V8.25z',
-      },
->>>>>>> Stashed changes
     ],
   },
   {
     title: 'Real Estate',
     cards: [
-<<<<<<< Updated upstream
       { icon: 'teal', iconKey: 'home', title: 'Listing generation', description: 'Create attractive property listings automatically from your data.', delay: '' },
       { icon: 'gold', iconKey: 'check', title: 'Lead qualification', description: 'Score and route leads so agents spend time only on qualified prospects.', delay: 'reveal-delay-1' },
       { icon: 'warm', iconKey: 'document', title: 'Document processing', description: 'Process contracts, disclosures, and closing paperwork faster.', delay: 'reveal-delay-2' },
       { icon: 'teal', iconKey: 'chart', title: 'Comp analysis', description: 'Generate comparable market reports automatically from property data.', delay: '' },
-=======
-      {
-        icon: 'teal',
-        title: 'Listing generation',
-        description: 'Create attractive property listings automatically from your data.',
-        delay: '',
-        iconPath: 'M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21H17.625c.621 0 1.125-.504 1.125-1.125V9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
-      },
-      {
-        icon: 'gold',
-        title: 'Lead qualification',
-        description: 'Score and route leads so agents spend time only on qualified prospects.',
-        delay: 'reveal-delay-1',
-        iconPath: 'M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z',
-      },
-      {
-        icon: 'warm',
-        title: 'Document processing',
-        description: 'Process contracts, disclosures, and closing paperwork faster.',
-        delay: 'reveal-delay-2',
-        iconPath: 'M19.5 14.25v-2.625c0-.621-.504-1.125-1.125-1.125h-1.5c-.621 0-1.125.504-1.125 1.125v2.625M21 12H9m0 0l3-3m-3 3l3 3m0 3.75V8.197c0-2.88-2.56-4.9-5.25-4.9s-5.25 2.02-5.25 4.9V18.75m9 0v-6m0 6h-1.5m1.5 0h1.5',
-      },
-      {
-        icon: 'teal',
-        title: 'Comp analysis',
-        description: 'Generate comparable market reports automatically from property data.',
-        delay: '',
-        iconPath: 'M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z',
-      },
->>>>>>> Stashed changes
     ],
   },
   {
     title: 'E-Commerce',
     cards: [
-<<<<<<< Updated upstream
       { icon: 'teal', iconKey: 'tag', title: 'Product description generation', description: 'Create SEO-ready product copy automatically from product specs.', delay: '' },
       { icon: 'gold', iconKey: 'chat', title: 'Customer service', description: 'Handle common customer questions and returns with AI-powered automation.', delay: 'reveal-delay-1' },
       { icon: 'warm', iconKey: 'box', title: 'Inventory forecasting', description: 'Predict stock needs to avoid overstock and out-of-stock situations.', delay: 'reveal-delay-2' },
       { icon: 'teal', iconKey: 'star', title: 'Review summarization', description: 'Summarize customer feedback and highlight trends automatically.', delay: '' },
-=======
-      {
-        icon: 'teal',
-        title: 'Product description generation',
-        description: 'Create SEO-ready product copy automatically from product specs.',
-        delay: '',
-        iconPath: 'M12 7.5h1.386c.22 0 .44-.107.577-.297l7.85-10.835a2.25 2.25 0 00-1.75-3.68c-.593 0-1.142.233-1.538.645l-7.5 8.954a.75.75 0 01-.577.3H12m0 0l3 3m0-8.25l-3-3',
-      },
-      {
-        icon: 'gold',
-        title: 'Customer service',
-        description: 'Handle common customer questions and returns with AI-powered automation.',
-        delay: 'reveal-delay-1',
-        iconPath: 'M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25-9-8.25s9 3.694 9 8.25z',
-      },
-      {
-        icon: 'warm',
-        title: 'Inventory forecasting',
-        description: 'Predict stock needs to avoid overstock and out-of-stock situations.',
-        delay: 'reveal-delay-2',
-        iconPath: 'M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m6 4.125l2.25 2.25m0 0l2.25 2.25M12 13.875l2.25-2.25M12 13.875l-2.25 2.25M15.75 7.5v-1.338a2.25 2.25 0 00-2.25-2.25h-5.25a2.25 2.25 0 00-2.25 2.25V7.5',
-      },
-      {
-        icon: 'teal',
-        title: 'Review summarization',
-        description: 'Summarize customer feedback and highlight trends automatically.',
-        delay: '',
-        iconPath: 'M11.48 3.499a.5.5 0 011.04 0l.213 1.413a2 2 0 00.582.727l1.1.84c.383.291.644.906.461 1.405l-.203 1.412a2 2 0 00.523 1.423l.756 1.08c.294.395.772.553 1.28.46l1.46-.252a2 2 0 011.457 2.848l-.694 1.142a2 2 0 00-.53 1.406l.99 1.005c.316.31.638.758.268 1.27l-.51 1.42a2 2 0 01-1.934 1.18l-1.423-.143a2 2 0 00-1.496.542l-.839 1.112c-.31.41-.78.746-1.335.746-.56 0-1.025-.335-1.335-.746l-.838-1.112a2 2 0 00-1.496-.542l-1.423.143a2 2 0 01-1.934-1.18l-.51-1.42c-.37-.512-.048-.96.268-1.27l.99-1.005a2 2 0 00.53-1.406l-.694-1.142a2 2 0 011.457-2.848l1.46.252c.508.093.986-.165 1.28-.46l.756-1.08a2 2 0 00.523-1.423l-.203-1.412c-.183-.499.078-1.114.461-1.405l1.1-.84a2 2 0 00.582-.727l.213-1.413z',
-      },
->>>>>>> Stashed changes
     ],
   },
   {
     title: 'Agencies',
     cards: [
-<<<<<<< Updated upstream
       { icon: 'teal', iconKey: 'chart', title: 'Client reporting', description: 'Auto-generate campaign reports and analytics summaries for clients.', delay: '' },
       { icon: 'gold', iconKey: 'pencil', title: 'Content production', description: 'Help create copy, briefs, and content drafts quickly.', delay: 'reveal-delay-1' },
       { icon: 'warm', iconKey: 'clipboard', title: 'Project status updates', description: 'Generate progress updates automatically so teams stay aligned.', delay: 'reveal-delay-2' },
       { icon: 'teal', iconKey: 'document', title: 'Meeting summaries', description: 'Turn meetings into concise notes with action items.', delay: '' },
-=======
-      {
-        icon: 'teal',
-        title: 'Client reporting',
-        description: 'Auto-generate campaign reports and analytics summaries for clients.',
-        delay: '',
-        iconPath: 'M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z',
-      },
-      {
-        icon: 'gold',
-        title: 'Content production',
-        description: 'Help create copy, briefs, and content drafts quickly.',
-        delay: 'reveal-delay-1',
-        iconPath: 'M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 9.75a3 3 0 11-6 0 3 3 0 016 0z',
-      },
-      {
-        icon: 'warm',
-        title: 'Project status updates',
-        description: 'Generate progress updates automatically so teams stay aligned.',
-        delay: 'reveal-delay-2',
-        iconPath: 'M9 12.75L11.25 15 15 9.75m-3-6.75H12a2.25 2.25 0 012.25 2.25v12A2.25 2.25 0 0112 19.5H9a2.25 2.25 0 01-2.25-2.25V6.75A2.25 2.25 0 019 4.5z',
-      },
-      {
-        icon: 'teal',
-        title: 'Meeting summaries',
-        description: 'Turn meetings into concise notes with action items.',
-        delay: '',
-        iconPath: 'M19.5 14.25v-2.625c0-.621-.504-1.125-1.125-1.125h-1.5c-.621 0-1.125.504-1.125 1.125v2.625M21 12H9m0 0l3-3m-3 3l3 3m0 3.75V8.197c0-2.88-2.56-4.9-5.25-4.9s-5.25 2.02-5.25 4.9V18.75m9 0v-6m0 6h-1.5m1.5 0h1.5',
-      },
->>>>>>> Stashed changes
     ],
   },
   {
     title: 'Manufacturing and Logistics',
     cards: [
-<<<<<<< Updated upstream
       { icon: 'teal', iconKey: 'chart', title: 'Demand forecasting', description: 'Predict demand trends so you can plan production and inventory.', delay: '' },
       { icon: 'gold', iconKey: 'search', title: 'Quality inspection', description: 'Detect defects and quality issues automatically with AI.', delay: 'reveal-delay-1' },
       { icon: 'warm', iconKey: 'wrench', title: 'Predictive maintenance', description: 'Identify equipment issues before they cause downtime.', delay: 'reveal-delay-2' },
       { icon: 'teal', iconKey: 'truck', title: 'Supply chain monitoring', description: 'Track shipments and flag delays so operations stay on schedule.', delay: '' },
-=======
-      {
-        icon: 'teal',
-        title: 'Demand forecasting',
-        description: 'Predict demand trends so you can plan production and inventory.',
-        delay: '',
-        iconPath: 'M2.25 18L9 11.25l4.306 4.307a11.25 11.25 0 015.814-5.977l2.05-1.025a.75.75 0 011.098.20l.583 2.915.583-2.915a.75.75 0 011.098-.2l2.05 1.025c2.601 1.306 4.991 3.696 5.977 6.814l1.025 2.05a.75.75 0 01-.2 1.098l-2.915.583 2.915.583a.75.75 0 01.2 1.098l-1.025 2.05a11.25 11.25 0 01-5.814 5.977l-2.05 1.025a.75.75 0 01-1.098-.2l-.583-2.915-.583 2.915a.75.75 0 01-1.098.2l-2.05-1.025a11.25 11.25 0 01-5.977-5.814l-1.025-2.05a.75.75 0 01.2-1.098l2.915-.583-2.915-.583a.75.75 0 01-.2-1.098l1.025-2.05z',
-      },
-      {
-        icon: 'gold',
-        title: 'Quality inspection',
-        description: 'Detect defects and quality issues automatically with AI.',
-        delay: 'reveal-delay-1',
-        iconPath: 'M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z',
-      },
-      {
-        icon: 'warm',
-        title: 'Predictive maintenance',
-        description: 'Identify equipment issues before they cause downtime.',
-        delay: 'reveal-delay-2',
-        iconPath: 'M11.42 15.842h.014a20.285 20.285 0 002.916-.306m-9.272-5.118a6.318 6.318 0 001.946 2.83c.04.04.077.076.11.107a5.838 5.838 0 002.832 1.142a6.213 6.213 0 001.772.22 6.956 6.956 0 002.16-.384c1.444-.568 2.766-1.473 3.802-2.61l.05-.053a6.327 6.327 0 00-3.802-10.882 6.25 6.25 0 00-3.802 1.25.75.75 0 01-1.06-1.06A7.75 7.75 0 0112 3a7.75 7.75 0 010 15.5z',
-      },
-      {
-        icon: 'teal',
-        title: 'Supply chain monitoring',
-        description: 'Track shipments and flag delays so operations stay on schedule.',
-        delay: '',
-        iconPath: 'M8.25 18.75a1.5 1.5 0 01-3 0m16.5 0a1.5 1.5 0 01-3 0m0 0a1.5 1.5 0 01-3 0m3 0h1.125c.621 0 1.126-.504 1.126-1.125V4.875c0-.621-.504-1.125-1.125-1.125H21.75c.621 0 1.125.504 1.125 1.125v12.75c0 .621-.504 1.125-1.125 1.125zm-15 0H3.375c-.621 0-1.125-.504-1.125-1.125V4.875c0-.621.504-1.125 1.125-1.125H5.25c.621 0 1.125.504 1.125 1.125v12.75c0 .621-.504 1.125-1.125 1.125zm6-10.5a.75.75 0 00-1.5 0v.006h1.5v-.006zm.375 13.5h-3a.75.75 0 010-1.5h3a.75.75 0 010 1.5z',
-      },
->>>>>>> Stashed changes
     ],
   },
   {
     title: 'Accounting Firms',
     cards: [
-<<<<<<< Updated upstream
       { icon: 'teal', iconKey: 'receipt', title: 'Receipt / invoice processing', description: 'Capture receipts and invoices automatically into your accounting workflow.', delay: '' },
       { icon: 'gold', iconKey: 'mail', title: 'Client communication', description: 'Automate client updates and document requests without manual outreach.', delay: 'reveal-delay-1' },
       { icon: 'warm', iconKey: 'document', title: 'Tax prep automation', description: 'Speed up tax prep with automated categorization and document assembly.', delay: 'reveal-delay-2' },
       { icon: 'teal', iconKey: 'dollar', title: 'Bookkeeping', description: 'Reconcile accounts and categorize transactions automatically.', delay: '' },
-=======
-      {
-        icon: 'teal',
-        title: 'Receipt / invoice processing',
-        description: 'Capture receipts and invoices automatically into your accounting workflow.',
-        delay: '',
-        iconPath: 'M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 5.25v0a.75.75 0 01.75-.75h.75a.75.75 0 01.75.75v0a.75.75 0 01-.75.75h-.75A.75.75 0 013 6v0a.75.75 0 01.75-.75H6a.75.75 0 01.75.75v0A.75.75 0 017.5 6v0a.75.75 0 01-.75.75H4.5a1.5 1.5 0 00-1.5 1.5v.75a1.5 1.5 0 001.5 1.5h.75a.75.75 0 01.75.75v0a.75.75 0 01-.75.75h-.75a1.5 1.5 0 01-1.5-1.5V9a1.5 1.5 0 011.5-1.5h.75A.75.75 0 019 7.5v0a.75.75 0 01-.75.75H6A.75.75 0 015.25 7.5v0A.75.75 0 016 6.75h.75a1.5 1.5 0 011.5 1.5v.75a1.5 1.5 0 01-1.5 1.5h-.75a.75.75 0 01-.75-.75v0a.75.75 0 01.75-.75h.75a.75.75 0 01.75.75v0a.75.75 0 01-.75.75H3.75a.75.75 0 01-.75-.75V9a.75.75 0 01.75-.75h.75a.75.75 0 01.75.75v0a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h.75zM12 12a.75.75 0 01.75-.75H15a.75.75 0 01.75.75v.75a.75.75 0 01-.75.75H12a.75.75 0 01-.75-.75V12zm.75 3.75a.75.75 0 01.75-.75h2.25a.75.75 0 01.75.75v.75a.75.75 0 01-.75.75H12a.75.75 0 01-.75-.75V15.75z',
-      },
-      {
-        icon: 'gold',
-        title: 'Client communication',
-        description: 'Automate client updates and document requests without manual outreach.',
-        delay: 'reveal-delay-1',
-        iconPath: 'M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75',
-      },
-      {
-        icon: 'warm',
-        title: 'Tax prep automation',
-        description: 'Speed up tax prep with automated categorization and document assembly.',
-        delay: 'reveal-delay-2',
-        iconPath: 'M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 3.07-.879 4.242 0l.879.659M6 18.75h.008v.008H6v-.008zM6.75 12h.008v.008H6.75V12zM9 9.75h.008v.008H9V9.75zM9.75 6h.008v.008H9.75V6zM12 9.75h.008v.008H12V9.75zM12.75 12h.008v.008H12.75V12zM15 6h.008v.008H15V6zM15.75 9.75h.008v.008H15.75V9.75zM18 12h.008v.008H18V12z',
-      },
-      {
-        icon: 'teal',
-        title: 'Bookkeeping',
-        description: 'Reconcile accounts and categorize transactions automatically.',
-        delay: '',
-        iconPath: 'M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 3.07-.879 4.242 0l.879.659M6 18.75h.008v.008H6v-.008zM6.75 12h.008v.008H6.75V12zM9 9.75h.008v.008H9V9.75zM9.75 6h.008v.008H9.75V6zM12 9.75h.008v.008H12V9.75zM12.75 12h.008v.008H12.75V12zM15 6h.008v.008H15V6zM15.75 9.75h.008v.008H15.75V9.75zM18 12h.008v.008H18V12z',
-      },
->>>>>>> Stashed changes
     ],
   },
   {
     title: 'Insurance',
     cards: [
-<<<<<<< Updated upstream
       { icon: 'teal', iconKey: 'document', title: 'Claims processing', description: 'Automate intake, routing, and initial assessment of claims.', delay: '' },
       { icon: 'gold', iconKey: 'shield', title: 'Underwriting support', description: 'Provide underwriters with fast risk insights and recommendations.', delay: 'reveal-delay-1' },
       { icon: 'warm', iconKey: 'clipboard', title: 'Policy summarization', description: 'Summarize policies for agents and customers in plain language.', delay: 'reveal-delay-2' },
       { icon: 'teal', iconKey: 'share', title: 'Customer triage', description: 'Route inquiries to the right team or response path instantly.', delay: '' },
-=======
-      {
-        icon: 'teal',
-        title: 'Claims processing',
-        description: 'Automate intake, routing, and initial assessment of claims.',
-        delay: '',
-        iconPath: 'M19.5 14.25v-2.625c0-.621-.504-1.125-1.125-1.125h-1.5c-.621 0-1.125.504-1.125 1.125v2.625M21 12H9m0 0l3-3m-3 3l3 3m0 3.75V8.197c0-2.88-2.56-4.9-5.25-4.9s-5.25 2.02-5.25 4.9V18.75m9 0v-6m0 6h-1.5m1.5 0h1.5',
-      },
-      {
-        icon: 'gold',
-        title: 'Underwriting support',
-        description: 'Provide underwriters with fast risk insights and recommendations.',
-        delay: 'reveal-delay-1',
-        iconPath: 'M9 12.75L11.25 15 15 9.75m-3-6.75H12a2.25 2.25 0 012.25 2.25v12A2.25 2.25 0 0112 19.5H9a2.25 2.25 0 01-2.25-2.25V6.75A2.25 2.25 0 019 4.5z',
-      },
-      {
-        icon: 'warm',
-        title: 'Policy summarization',
-        description: 'Summarize policies for agents and customers in plain language.',
-        delay: 'reveal-delay-2',
-        iconPath: 'M19.5 14.25v-2.625c0-.621-.504-1.125-1.125-1.125h-1.5c-.621 0-1.125.504-1.125 1.125v2.625M21 12H9m0 0l3-3m-3 3l3 3m0 3.75V8.197c0-2.88-2.56-4.9-5.25-4.9s-5.25 2.02-5.25 4.9V18.75m9 0v-6m0 6h-1.5m1.5 0h1.5',
-      },
-      {
-        icon: 'teal',
-        title: 'Customer triage',
-        description: 'Route inquiries to the right team or response path instantly.',
-        delay: '',
-        iconPath: 'M18 18.75H0m0 0a60.933 60.933 0 003.75-7.978A24 24 0 0120.331 8.72m0 0a60.933 60.933 0 003.75 7.978M0 18.75a24 24 0 0020.331-10.742m0 0h3.75a60.933 60.933 0 003.75-7.978',
-      },
->>>>>>> Stashed changes
     ],
   },
 ]
@@ -387,19 +139,10 @@ export default function Features() {
 
   return (
     <section className="features" id="features" ref={ref}>
-<<<<<<< Updated upstream
       <div className="section-label reveal">Your Custom AI Employees</div>
       <h2 className="section-heading reveal reveal-delay-1">
         What we can do for <em>{selectedIndustry === 0 ? 'your company' : currentIndustry.title}</em>
       </h2>
-=======
-      <div className="section-label reveal">Your Custom AI Employees </div>
-     <h2 className="section-heading reveal reveal-delay-1">
-  What we can do for <em>{currentIndustry.title === 'Your Company' ? 'your company' : currentIndustry.title}</em>
-</h2>
-      <p className="section-subtext reveal reveal-delay-2">
-      </p>
->>>>>>> Stashed changes
 
       <div className="industry-tabs reveal reveal-delay-2">
         {industries.map((industry, index) => (
