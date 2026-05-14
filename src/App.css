@@ -464,6 +464,11 @@ nav.scrolled {
   font-style: normal;
 }
 
+.features .section-heading {
+  max-width: none;
+  white-space: nowrap;
+}
+
 .section-subtext {
   font-size: 1.05rem;
   color: var(--text-secondary);
@@ -535,7 +540,7 @@ nav.scrolled {
 }
 
 .feature-card {
-  background: linear-gradient(135deg, var(--white) 0%, rgba(232, 242, 241, 0.3) 100%);
+  background: radial-gradient(ellipse at 85% 12%, rgba(232, 242, 241, 0.55) 0%, var(--white) 58%);
   border: 1px solid var(--border);
   border-radius: 24px;
   padding: 2.5rem;
@@ -1169,6 +1174,10 @@ footer {
 
   .features-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .features .section-heading {
+    white-space: normal;
   }
 
   .process-grid {
